@@ -7,7 +7,7 @@ spring:
   data:
     mongodb:
       database: test
-      port: 27017  
+      port: 27027  
   application:
     name: api-catalog
 
