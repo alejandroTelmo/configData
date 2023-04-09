@@ -11,10 +11,10 @@ spring:
   zipkin:
     baseUrl: http://localhost:9411/
   datasource:
-    driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/movie-dev
-    username: usr-movie
-    password: pwd-movie
+    driverClassName:  com.mysql.jdbc.Driver
+    url:  jdbc:mysql://localhost:3306/movie-dev
+    username:  usr-movie
+    password:  pwd-movie
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
